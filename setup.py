@@ -1,5 +1,8 @@
 import setuptools
 
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
 setuptools.setup(
     name="failstodeliver",
     version="0.0.3",
@@ -7,6 +10,8 @@ setuptools.setup(
     author="Yuvraj Chandra",
     author_email="Singhyuvraj179@gmail.com",
     description="A simple package to download failstodeliver data from SEC EDGAR Databse",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/Yuvrajchandra/failstodeliver",
     download_url = 'https://github.com/Yuvrajchandra/failstodeliver/archive/v0.0.3.tar.gz',
     keywords = ['EDGAR', 'SEC', 'failstodeliver', 'Database'],
