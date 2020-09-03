@@ -5,6 +5,8 @@ The data downloaded is in csv file format.
 
 The file contains the date, CUSIP numbers, ticker symbols, issuer name, price, and total number of fails-to-deliver (i.e., the balance level outstanding) recorded in the National Securities Clearing Corporation's ("NSCC") Continuous Net Settlement (CNS) system aggregated over all NSCC members.
 
+failstodeliver data can also be used to get **CUSIP-TICKER mapping**.
+
 The record layout and maximum field sizes are shown below :
 
 | Field Name | Field Description | Maximum Size |
@@ -28,7 +30,13 @@ pip install failstodeliver
 
 Please have a look on [official documentation](https://github.com/Yuvrajchandra/failstodeliver) for usage examples.
 
+## Source Of Data
+
+https://www.sec.gov/data/foiadocsfailsdatahtm
+
+
 ## Contributing
+
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 
