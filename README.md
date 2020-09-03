@@ -1,5 +1,5 @@
 # failstodeliver
-failstodeliver is a python library to download [Fails-to-Deliver](https://www.sec.gov/data/foiadocsfailsdatahtm) Data from U.S. SECURITIES AND EXCHANGE COMMISSION database.
+**failstodeliver** is a python library to download [Fails-to-Deliver](https://www.sec.gov/data/foiadocsfailsdatahtm) Data from U.S. SECURITIES AND EXCHANGE COMMISSION database.
 
 The data downloaded is in csv file format.
 
