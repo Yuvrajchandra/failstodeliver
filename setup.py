@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="failstodeliver",
-    version="0.0.4",
+    version="0.0.5",
     license='MIT',
     author="Yuvraj Chandra",
     author_email="Singhyuvraj179@gmail.com",
@@ -13,7 +13,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Yuvrajchandra/failstodeliver",
-    download_url = 'https://github.com/Yuvrajchandra/failstodeliver/archive/v0.0.4.tar.gz',
+    download_url = 'https://github.com/Yuvrajchandra/failstodeliver/archive/v0.0.5.tar.gz',
     keywords = ['EDGAR', 'SEC', 'failstodeliver', 'Database'],
     packages=setuptools.find_packages(),
     classifiers=[
