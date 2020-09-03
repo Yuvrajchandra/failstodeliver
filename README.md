@@ -28,7 +28,11 @@ pip install failstodeliver
 
 ## Usage
 
-Please have a look on [official documentation](https://github.com/Yuvrajchandra/failstodeliver) for usage examples.
+```python
+from failstodeliver import ftdDownloader
+
+ftdDownloader.download_csv()
+```
 
 ## Source
 
