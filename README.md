@@ -30,7 +30,7 @@ pip install failstodeliver
 
 Please have a look on [official documentation](https://github.com/Yuvrajchandra/failstodeliver) for usage examples.
 
-## Source Of Data
+## Source
 
 https://www.sec.gov/data/foiadocsfailsdatahtm
 
