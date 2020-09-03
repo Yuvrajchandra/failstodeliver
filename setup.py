@@ -10,6 +10,7 @@ setuptools.setup(
     author="Yuvraj Chandra",
     author_email="Singhyuvraj179@gmail.com",
     description="A simple package to download failstodeliver data from SEC EDGAR Databse",
+    long_description=long_description,
     url="https://github.com/Yuvrajchandra/failstodeliver",
     keywords = ['EDGAR', 'SEC', 'failstodeliver', 'Database'],
     packages=setuptools.find_packages(),
