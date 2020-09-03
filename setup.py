@@ -12,6 +12,7 @@ setuptools.setup(
     description="A simple package to download failstodeliver data from SEC EDGAR Databse",
     long_description=long_description,
     url="https://github.com/Yuvrajchandra/failstodeliver",
+    download_url = 'https://github.com/Yuvrajchandra/failstodeliver/archive/v0.0.2.tar.gz',
     keywords = ['EDGAR', 'SEC', 'failstodeliver', 'Database'],
     packages=setuptools.find_packages(),
     classifiers=[
